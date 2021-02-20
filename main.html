@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8" />
-<title>対空噴進弾幕率</title>
+    <meta charset="UTF-8" />
+    <title>対空噴進弾幕率</title>
 </head>
+
 <body>
- <p><label for="name">艦娘名</label><br>
- <input type="text" id="name" name="name"><input type="checkbox" id="f" name="f"><label for="f">改修MAX?</label>
- <div>対空:<input type="number" min="0" max="200" id = "flack" name="flack" value=0 size="3" readonly>
- </div>
- </p>
- <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
- <script src="main.js"></script>
+    <div>
+        <label for="name">艦娘名</label><br>
+        <input type="text" id="name" name="name"><br>
+        <input type="checkbox" name="f" id="f">
+        <label for="f">改修MAX?</label>
+    </div>
+    <br>
+    <div>
+        <label for="flack">対空</label>
+        <input type="number" name="flack" id="flack" min="0" max="200" value="0" size="3" readonly>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
