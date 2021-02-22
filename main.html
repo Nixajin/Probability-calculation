@@ -11,17 +11,91 @@
         <label for="name">艦娘名</label><br>
         <input type="text" id="name" name="name"><br>
         <input type="checkbox" name="f" id="f">
-        <label for="f">改修MAX?</label>
+	<label for="f">改修MAX?</label><br>
+	<input type="checkbox" name="f2" id="f2">
+	<label for="f2">運改修MAX?</label>
     </div>
     <br>
     <div>
         <label for="flack">対空</label>
         <input type="number" name="flack" id="flack" min="0" max="200" size="3" readonly>
     </div>
+    <div>
+	<label for="luck">運</label>
+	<input type="number" name="luck" id="luck" min="0" max="200" size="3" readonly>
+    </div>
     <br>
     <div>
-	<label for="">運</label>
-	<input type="number" name="luck" id="luck" min="0" max="200" size="3" readonly>
+	<label for="weapon1">装備1</label>
+	<select name="weapon1" size="1">
+	<option value="1">対空機銃</option>
+        <option value="2">高角砲</option>
+        <option value="3">高射装置</option>
+        <option value="4">電探</option>
+        <option value="5">主砲</option>
+        <option value="6">三式弾</option>
+        <option value="7">艦戦</option>
+        <option value="8">水偵</option>
+	<option value="9">副砲</option>
+	</select>
+	<label for="weapon1">対空値</label>
+	<input type="number" min="0" max="99">
+	<label for="weapon1">改修☆</label>
+	<input type="number" min="0" max="99">
+    </div>
+    <div>
+	<label for="weapon2">装備2</label>
+	<select name="weapon2" size="1">
+	<option value="1">対空機銃</option>
+        <option value="2">高角砲</option>
+        <option value="3">高射装置</option>
+        <option value="4">電探</option>
+        <option value="5">主砲</option>
+        <option value="6">三式弾</option>
+        <option value="7">艦戦</option>
+        <option value="8">水偵</option>
+	<option value="9">副砲</option>
+	</select>
+	<label for="weapon2">対空値</label>
+	<input type="number" min="0" max="99">
+	<label for="weapon2">改修☆</label>
+	<input type="number" min="0" max="99">
+    </div>
+    <div>
+	<label for="weapon3">装備3</label>
+	<select name="weapon3" size="1">
+	<option value="1">対空機銃</option>
+        <option value="2">高角砲</option>
+        <option value="3">高射装置</option>
+        <option value="4">電探</option>
+        <option value="5">主砲</option>
+        <option value="6">三式弾</option>
+        <option value="7">艦戦</option>
+        <option value="8">水偵</option>
+	<option value="9">副砲</option>
+	</select>
+	<label for="weapon3">対空値</label>
+	<input type="number" min="0" max="99">
+	<label for="weapon3">改修☆</label>
+	<input type="number" min="0" max="99">
+    </div>
+    <div>
+	<label for="addweapon">増設枠</label>
+	<select name="addweapon" size="1">
+	<option value="1">対空機銃</option>
+        <option value="2">高角砲</option>
+        <option value="3">高射装置</option>
+        <option value="4">電探</option>
+        <option value="5">主砲</option>
+        <option value="6">三式弾</option>
+        <option value="7">艦戦</option>
+        <option value="8">水偵</option>
+	<option value="9">副砲</option>
+	</select>
+	<label for="addweapon">対空値</label>
+	<input type="number" min="0" max="99">
+	<label for="addweapon">改修☆</label>
+	<input type="number" min="0" max="99">
     </div>
     <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
     <script src="main.js"></script>
