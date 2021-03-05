@@ -119,6 +119,48 @@ const fleet = {
 	luck: 18,
 	rluck: 74,
     },
+    Soryu: {
+	name: '蒼龍',
+	flack: 26,
+	rflack: 69,
+	luck: 10,
+	rluck: 49,
+    },
+    Soryu2: {
+	name: '蒼龍改',
+	flack: 30,
+	rflack: 79,
+	luck: 12,
+	rluck: 59,
+    },
+    Soryu3: {
+	name: '蒼龍改二',
+	flack: 34,
+	rflack: 84,
+	luck: 15,
+	rluck: 60,
+    },
+    Hiryu: {
+	name: '飛龍',
+	flack: 26,
+	rflack: 69,
+	luck: 35,
+	rluck: 89,
+    },
+    Hiryu2: {
+	name: '飛龍改',
+	flack: 30,
+	rflack: 79,
+	luck: 40,
+	rluck: 89,
+    },
+    Hiryu3: {
+	name: '飛龍改二',
+	flack: 33,
+	rflack: 82,
+	luck: 50,
+	rluck: 93,
+    }
 }
 
 let inputShip = undefined;
